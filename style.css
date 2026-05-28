@@ -1,5 +1,12 @@
+:root {
+    --first-bg: #2C5EAD;
+    --second-bg: #4BB8FA;
+    --third-bg: #C4E2F5;
+    --fourth-bg: #1591DC;
+}
+
 .Header {
-    background-color: #2C5EAD;
+    background-color: var(--first-bg);
 }
 
 .Header nav a {
@@ -8,5 +15,5 @@
 }
 
 .Header nav a:hover {
-    color: #4BB8FA;
+    color: var(--second-bg);
 }
