@@ -1,19 +1,36 @@
 :root {
-    --first-bg: #2C5EAD;
-    --second-bg: #4BB8FA;
-    --third-bg: #C4E2F5;
-    --fourth-bg: #1591DC;
+  --first-bg: #2c5ead;
+  --second-bg: #4bb8fa;
+  --third-bg: #c4e2f5;
+  --fourth-bg: #1591dc;
 }
 
 .Header {
-    background-color: var(--first-bg);
+  background-color: var(--first-bg);
 }
 
 .Header nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .Header nav a:hover {
-    color: var(--second-bg);
+  color: var(--second-bg);
+}
+
+#hero {
+  min-height: 90vh;
+  background:
+    linear-gradient(rgba(11, 12, 16, 0.7), rgba(11, 12, 16, 1)),
+    url("https://t4.ftcdn.net/jpg/08/50/30/01/240_F_850300178_2R0d9z8EiG6hN8Yj5QaBEYJAEVFflJly.jpg")center / cover no-repeat ;
+}
+
+.btn-custom {
+  background-color: var(--first-bg);
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: var(--fourth-bg);
+  color: #fff;
 }
