@@ -34,3 +34,8 @@
   background-color: var(--fourth-bg);
   color: #fff;
 }
+
+#about div div {
+    height: 50vh;
+    width: 90vh;
+}
