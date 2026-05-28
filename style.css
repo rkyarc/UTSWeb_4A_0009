@@ -1,0 +1,12 @@
+.Header {
+    background-color: #2C5EAD;
+}
+
+.Header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.Header nav a:hover {
+    color: #4BB8FA;
+}
