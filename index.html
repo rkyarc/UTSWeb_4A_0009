@@ -19,9 +19,7 @@
 
   <body>
     <!-- Header -->
-    <header
-      class="d-flex p-2 px-lg-5 justify-content-between sticky-top"
-    >
+    <header class="d-flex p-2 px-lg-5 justify-content-between sticky-top">
       <a class="text-light fw-bold" href="#">VIREONIME</a>
       <nav class="d-flex gap-4 align-items-center">
         <a href="#about">Tentang</a>
@@ -29,7 +27,10 @@
         <a href="#katalog">Katalog</a>
         <a href="#langganan">Premium</a>
         <a href="#faq">FAQ</a>
-        <button id="themeToggle" class="btn btn-outline-light rounded-circle px-2 py-1 ms-3">
+        <button
+          id="themeToggle"
+          class="btn btn-outline-light rounded-circle px-2 py-1 ms-3"
+        >
           <i class="bi bi-moon-fill" id="themeIcon"></i>
         </button>
       </nav>
@@ -138,13 +139,22 @@
           <h6 class="text-primary fw-bold mb-2">TAYANGAN</h6>
           <h2 class="fw-bold mb-5 display-6">Sedang Trending Bulan Ini</h2>
           <div class="mb-5 d-flex justify-content-center flex-wrap gap-3">
-            <button class="btn filter-btn active rounded-pill px4" data-filter="all">
+            <button
+              class="btn filter-btn active rounded-pill px4"
+              data-filter="all"
+            >
               Semua
             </button>
-            <button class="btn filter-btn rounded-pill px4" data-filter="school">
+            <button
+              class="btn filter-btn rounded-pill px4"
+              data-filter="school"
+            >
               School
             </button>
-            <button class="btn filter-btn rounded-pill px4" data-filter="action">
+            <button
+              class="btn filter-btn rounded-pill px4"
+              data-filter="action"
+            >
               Action
             </button>
           </div>
@@ -215,7 +225,11 @@
                     src="https://wallpapercave.com/wp/wp13339916.jpg"
                     class="w-100"
                     alt="Anime Action"
-                    style="height: 250px; object-fit: cover; object-position: center;"
+                    style="
+                      height: 250px;
+                      object-fit: cover;
+                      object-position: center;
+                    "
                   />
                   <div class="position-absolute top-0 end-0 m-3 z-3">
                     <span class="badge bg-danger px-3 py-2 rounded-pill"
@@ -223,9 +237,9 @@
                     >
                   </div>
                 </div>
-                <div class="card-body p-4">
-                  <h5 class="fw-bold mb-2">One Piece</h5>
-                  <p class="text-muted small mb-0">
+                <div class="card-body p-4 d-flex flex-column">
+                  <h5 class="fw-bold">One Piece</h5>
+                  <p class="text-muted small mb-0 mt-auto">
                     <i class="bi bi-calendar-check me-2"></i>Baru Tiap Minggu
                   </p>
                 </div>
@@ -460,15 +474,21 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-5">
+    <footer class="py-3">
       <div class="container text-center">
-        <h4 class="text-primary fw-bolder mb-3 d-flex  justify-content-center align-items-center gap-2">VIREONIME</h4>
-        <p class="text-muted mb-4 small lh-lg">
+        <h4
+          class="text-primary fw-bolder mb-3 d-flex justify-content-center align-items-center gap-2"
+        >
+          VIREONIME
+        </h4>
+        <p class="mb-4 small lh-lg">
           Jl. Raya Informatika No. 10, Kampus UISI, Gresik <br />
           Email:
           <a href="mailto:support@vireonime.com">support@vireonime.com</a>
         </p>
-        <p class="small text-muted mb-0 opacity-50">&copy; 2026 PT Vireonime Digital Media.</p>
+        <p class="small mb-0 opacity-50">
+          &copy; 2026 PT Vireonime Digital Media.
+        </p>
       </div>
     </footer>
 

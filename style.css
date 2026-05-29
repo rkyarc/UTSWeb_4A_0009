@@ -3,27 +3,42 @@
   --bg-secondary: #1e293b;
   --accent-color: #3b82f6;
   --accent-hover: #2563eb;
+  --text-main: #f8fafc;
   --text-light: #2563eb;
   --text-muted: #94a3b8;
+  --border-color: #334155;
 }
 
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Header */
 header {
   background-color: var(--bg-main);
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease;
 }
 
-header a {
+header a.text-light {
+  color: var(--text-main) !important;
   text-decoration: none;
 }
 
 header nav a {
-  color: white;
+  color: var(--text-main);
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 header nav a:hover {
-  color: var(--text-light);
+  color: var(--accent-color);
 }
 
+/* Hero */
 #hero {
   min-height: 95vh;
   background:
@@ -36,6 +51,8 @@ header nav a:hover {
   border-radius: 50px;
   background-color: var(--accent-color);
   color: #fff;
+  border: none;
+  transition: all 0.3s ease;
 }
 
 .btn-custom:hover {
@@ -43,11 +60,13 @@ header nav a:hover {
   color: #fff;
 }
 
+/* About */
 #about div div {
   height: 50vh;
   width: 80vh;
 }
 
+/* Fitur */
 #fitur {
   background: radial-gradient(
     circle at center,
@@ -57,7 +76,10 @@ header nav a:hover {
 }
 
 .card {
-  border-radius: 5%;
+  background-color: var(--bg-secondary);
+  color: var(--text-main);
+  border: 1px solid var(--border-color) !important;
+  border-radius: 1.5rem;
   transition:
     transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     box-shadow 0.4s ease;
@@ -71,26 +93,31 @@ header nav a:hover {
 .fitur-card {
   width: 80px;
   height: 80px;
-  background: rgba(0, 240, 255, 0.1);
-  color: var(--bg-main);
+  background: var(--bg-main);
+  color: var(--text-main);
   font-size: 2.5rem;
 }
 
+.card p {
+  color: var(--text-main) !important;
+}
+
+/* Katalog */
 .filter-btn {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #94a3b8;
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
   font-weight: 500;
   background: transparent;
 }
 
 .filter-btn.active,
 .filter-btn:hover {
-  background-color: var(--bg-secondary);
-  color: white;
+  background-color: var(--accent-hover);
+  color: var(--text-main);
   border-color: var(--bg-secondary);
-  box-shadow: 0 10px 20px rgba(2, 132, 199, 0.2);
 }
 
+/* Testimoni */
 .pp1-testi {
   width: 50px;
   height: 50px;
@@ -105,8 +132,9 @@ header nav a:hover {
     center/cover;
 }
 
+/* FAQ */
 .accordion-item {
-  border: 1px solid rgb(196, 196, 196) !important;
+  border: 1px solid var(--bg-main) !important;
   border-radius: 1rem !important;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -114,8 +142,9 @@ header nav a:hover {
 }
 
 .accordion-button {
-  background: transparent !important;
-  color: black !important;
+  background: var(--bg-secondary) !important;
+  text-decoration-color: var(--text-main);
+  color: var(--text-main) !important;
   font-weight: 600;
   box-shadow: none !important;
   padding: 1.5rem;
@@ -123,11 +152,17 @@ header nav a:hover {
 
 .accordion-body {
   text-align: start;
-  color: #2d3035;
+  color: var(--text-main);
+  background: var(--bg-secondary);
   padding: 0 1.5rem 1.5rem 1.5rem;
   line-height: 1.8;
 }
 
+/* Footer */
 footer {
-  background: rgb(179, 179, 179);
+  background: var(--bg-secondary);
+}
+
+footer div p {
+  color: var(--text-main);
 }
