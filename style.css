@@ -27,6 +27,7 @@
 }
 
 .btn-custom {
+  border-radius: 50px;
   background-color: var(--first-bg);
   color: #fff;
 }
