@@ -120,3 +120,7 @@
   padding: 0 1.5rem 1.5rem 1.5rem;
   line-height: 1.8;
 }
+
+footer {
+  background: rgb(179, 179, 179);
+}
