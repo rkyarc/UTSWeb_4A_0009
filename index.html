@@ -20,12 +20,12 @@
 
   <body>
     <!-- Header -->
-    <header class="d-flex p-2 px-lg-5 justify-content-between sticky-top">
+    <header class="d-flex flex-column flex-md-row p-2 px-lg-5 justify-content-between sticky-top">
       <div class="d-flex gap-1 align-items-center">
         <div class="logo bg-transparent rounded-circle"></div>
         <a class="text-light fw-bold" href="#">VIREONIME</a>
       </div>
-      <nav class="d-flex gap-4 align-items-center">
+      <nav class="d-flex gap-3 gap-md-4 align-items-center flex-wrap justify-content-center">
         <a href="#about">Tentang</a>
         <a href="#fitur">Fitur</a>
         <a href="#katalog">Katalog</a>
@@ -44,10 +44,10 @@
       <!-- 1. Hero -->
       <section
         id="hero"
-        class="text-light justify-content-center d-flex flex-column align-items-center text-center"
+        class="text-light justify-content-center d-flex flex-column align-items-center text-center px-3"
       >
-        <h1 class="display-3 fw-bold m-5">Streaming Anime<br />Tanpa Batas</h1>
-        <p>
+        <h1 class="display-5 display-md-3 fw-bold my-4 my-md-5">Streaming Anime<br />Tanpa Batas</h1>
+        <p class="px-2">
           Ribuan episode langsung dari Jepang. Legal, cepat, dan dilengkapi
           dengan subtitle Indonesia.
         </p>
@@ -57,17 +57,19 @@
       <!-- 2. About -->
       <section id="about" class="pt-5">
         <div class="container">
-          <div class="d-flex just align-items-center g-5 mt-5 mb-5">
-            <div class="ratio ratio-1x1 col-lg-6 m-5">
-              <img
-                src="https://images7.alphacoders.com/740/thumb-1920-740446.jpg"
-                alt="anime"
-                class="object-fit-cover img-fluid rounded-4"
-              />
+          <div class="row align-items-center g-4 g-lg-5 mt-2 mt-md-5 mb-5 text-start">
+            <div class="col-lg-6 mb-4 text-center">
+              <div class="ratio ratio-1x1 mx-auto">
+                <img
+                  src="https://images7.alphacoders.com/740/thumb-1920-740446.jpg"
+                  alt="anime"
+                  class="object-fit-cover img-fluid rounded-4"
+                />
+              </div>
             </div>
             <div class="col-lg-6">
-              <h6 class="text-primary">TENTANG KAMI</h6>
-              <h2>Lebih dari Sekadar Nonton, Ini Adalah Dunia Kita</h2>
+              <h6 class="text-primary fw-bold mb-2">TENTANG KAMI</h6>
+              <h2 class="fw-bold mb-5 display-6">Lebih dari Sekadar Nonton, Ini Adalah Dunia Kita</h2>
               <p>
                 PT Vireonime Digital Media adalah pionir platform Video on
                 Demand (VOD) yang berdedikasi khusus untuk industri animasi

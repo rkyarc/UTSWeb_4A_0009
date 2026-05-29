@@ -76,12 +76,6 @@ header nav a:hover {
   color: #fff;
 }
 
-/* About */
-#about div div {
-  height: 50vh;
-  width: 80vh;
-}
-
 /* Fitur */
 #fitur {
   background: radial-gradient(
