@@ -83,6 +83,7 @@ header nav a:hover {
   background: transparent;
 }
 
+.filter-btn.active,
 .filter-btn:hover {
   background-color: var(--bg-secondary);
   color: white;
