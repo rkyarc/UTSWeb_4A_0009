@@ -7,17 +7,21 @@
   --text-muted: #94a3b8;
 }
 
-.Header {
+header {
   background-color: var(--bg-main);
 }
 
-.Header nav a {
-  color: var(--text-muted);
+header a {
   text-decoration: none;
 }
 
-.Header nav a:hover {
-  color: var(--bg-secondary);
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: var(--text-light);
 }
 
 #hero {
