@@ -83,3 +83,17 @@
   border-color: var(--second-bg);
   box-shadow: 0 10px 20px rgba(2, 132, 199, 0.2);
 }
+
+.pp1-testi {
+  width: 50px;
+  height: 50px;
+  background: url("https://media.licdn.com/dms/image/v2/D5603AQGjkukJwJE1TQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729395284097?e=2147483647&v=beta&t=cMUayoi59fwrJrdUZxEK5HXXJqSwfP41S0l3egAcXNo")
+    center/cover;
+}
+
+.pp2-testi {
+  width: 50px;
+  height: 50px;
+  background: url("https://media.licdn.com/dms/image/v2/D4E03AQEoWKsDWoFQxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729133403452?e=1781740800&v=beta&t=fzzGtxeSIIMqM9YZwEDwCOnU5aBeaNGzWbc759169T4")
+    center/cover;
+}
