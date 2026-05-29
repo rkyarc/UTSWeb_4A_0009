@@ -97,3 +97,26 @@
   background: url("https://media.licdn.com/dms/image/v2/D4E03AQEoWKsDWoFQxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729133403452?e=1781740800&v=beta&t=fzzGtxeSIIMqM9YZwEDwCOnU5aBeaNGzWbc759169T4")
     center/cover;
 }
+
+.accordion-item {
+  border: 1px solid rgb(196, 196, 196) !important;
+  border-radius: 1rem !important;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.accordion-button {
+  background: transparent !important;
+  color: black !important;
+  font-weight: 600;
+  box-shadow: none !important;
+  padding: 1.5rem;
+}
+
+.accordion-body {
+  text-align: start;
+  color: #2d3035;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  line-height: 1.8;
+}
