@@ -1,21 +1,23 @@
 :root {
-  --first-bg: #2c5ead;
-  --second-bg: #4bb8fa;
-  --third-bg: #c4e2f5;
-  --fourth-bg: #1591dc;
+  --bg-main: #0f172a;
+  --bg-secondary: #1e293b;
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --text-light: #2563eb;
+  --text-muted: #94a3b8;
 }
 
 .Header {
-  background-color: var(--first-bg);
+  background-color: var(--bg-main);
 }
 
 .Header nav a {
-  color: white;
+  color: var(--text-muted);
   text-decoration: none;
 }
 
 .Header nav a:hover {
-  color: var(--second-bg);
+  color: var(--bg-secondary);
 }
 
 #hero {
@@ -28,12 +30,12 @@
 
 .btn-custom {
   border-radius: 50px;
-  background-color: var(--first-bg);
+  background-color: var(--accent-color);
   color: #fff;
 }
 
 .btn-custom:hover {
-  background-color: var(--fourth-bg);
+  background-color: var(--accent-hover);
   color: #fff;
 }
 
@@ -66,7 +68,7 @@
   width: 80px;
   height: 80px;
   background: rgba(0, 240, 255, 0.1);
-  color: var(--first-bg);
+  color: var(--bg-main);
   font-size: 2.5rem;
 }
 
@@ -78,9 +80,9 @@
 }
 
 .filter-btn:hover {
-  background-color: var(--second-bg);
+  background-color: var(--bg-secondary);
   color: white;
-  border-color: var(--second-bg);
+  border-color: var(--bg-secondary);
   box-shadow: 0 10px 20px rgba(2, 132, 199, 0.2);
 }
 
